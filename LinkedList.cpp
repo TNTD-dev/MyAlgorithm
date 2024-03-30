@@ -141,7 +141,7 @@ void RemoveList(LIST& L) {
 
 void PrintList(LIST L) {
     NODE* p;
-    if (L.phead = NULL) cout << "DSLK rong." << endl;
+    if (L.phead ==NULL) cout << "DSLK rong." << endl;
     else {
         p = L.phead;
         while (p) {
